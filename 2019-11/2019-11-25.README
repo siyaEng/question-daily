@@ -1,0 +1,11 @@
+见源码文件	`{{path}}/src/runtune/slice.go`
+		
+		```
+		type slice struct {
+			array unsafe.Pointer
+			len   int
+			cap   int
+		}
+		```
+		
+它是由 array【指向一个数组元素的地址】，len 【长度】，cap【容量】构成。
